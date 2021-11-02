@@ -18,5 +18,3 @@ Start dev server: `php artisan serve`
 ## GitHub
 
 View the JobMonitor repository on GitHub: https://github.com/RyanJF1/jobmonitor
-
-Git test
