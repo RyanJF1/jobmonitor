@@ -2203,11 +2203,11 @@ function User() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-header",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
-              children: "React Component in Laravel"
+              children: "JobMonitor - Job Application Tracking"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-body",
-            children: "I'm tiny React component in Laravel app!"
+            children: "Comming soon!"
           })]
         })
       })
