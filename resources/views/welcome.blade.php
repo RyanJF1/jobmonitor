@@ -11,9 +11,9 @@
 
 <body>
 
-    <!-- React root DOM -->
-    <div id="user">
-    </div>
+<div>
+    <Navbar />
+</div>
 
     <!-- React JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>

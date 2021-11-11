@@ -12,4 +12,16 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+import React from 'react'
+import ReactRenderer from './ReactRenderer'
+
+import Navbar from './components/Navbar'
+
+const components = [
+    {
+      name: "Navbar",
+      component: <Navbar />,
+    },
+  ]
+
+  new ReactRenderer(components).renderAll()
