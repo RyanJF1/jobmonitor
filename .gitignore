@@ -13,10 +13,7 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-<<<<<<< HEAD
 package-lock.json
 composer.lock
-=======
 /public/js/app.js
 /pubic/css/app.css
->>>>>>> origin/release/staging
