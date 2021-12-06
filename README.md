@@ -22,8 +22,6 @@ Languages/Frameworks:
 Default Login:
 Username: admin@localhost
 Password: password
-## Commands
-
 ## GitHub
 
 View the JobMonitor repository on GitHub: https://github.com/RyanJF1/jobmonitor
