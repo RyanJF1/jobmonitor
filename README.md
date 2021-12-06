@@ -8,13 +8,20 @@ Languages/Frameworks:
 -Laravel
 -React
 
-## Commands
+## Getting Started
+1. Run `composer install` to install `vendor` folder
+2. Run `npm install` to install `node_modules` folder
+3. Rename `.env.example` to `.env`
+4. Generate APP_KEY with `php artisan key:generate`
+5. Build and run containers in detached mode with `docker-compose up -d --build`
+6. Migrate and seed database with `docker-compose run app php artisan migrate --seed`
 
-Install dependencies: `composer install`
-Update dependencies: `composer update`
-Migrate database: `php artisan migrate`
+- Access web app at http://localhost:9300
+- Access Adminer at http://localhost:9301
 
-Start dev server: `php artisan serve`
+Default Login:
+Username: admin@localhost
+Password: password
 ## GitHub
 
 View the JobMonitor repository on GitHub: https://github.com/RyanJF1/jobmonitor
