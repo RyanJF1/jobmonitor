@@ -1,20 +1,34 @@
 ## About
 
-JobMonitor is a personal project used to showcase my programming skills.
+Site built using Laravel + React
 
-It will function as a way to keep track of resumes and job applications.
+View the JobMonitor repository on GitHub: https://github.com/RyanJF1/jobmonitor
+## Start
 
-Languages/Frameworks:
--Laravel
--React
+1. `composer install` to install vendor folder
+2. `npm install` to install node_modules folder
+3.  Rename .env.example to .env and configure environment
+3. `php artisan key:generate` to generate APP_KEY
+3. `docker-compose build` to build containers
+4. `docker-compose up -d` to bring containers up in detached mode
+5. `docker-compose run app php artisan migrate --seed` to migrate and seed database
 
-## Commands
+Web App: http://localhost:9100
+Database: http://localhost:9101
 
-Install dependencies: `composer install`
-Update dependencies: `composer update`
-Migrate database: `php artisan migrate`
+Web App Login
+Username: `admin@localhost`
+Password: `password`
 
-Start dev server: `php artisan serve`
+Database Login
+Username: `admin`
+Password: `password`
+
+Run commands inside container with `docker-compose run app <comamnd>`
+## Help
+
+Build code: `npm run watch`
+
 ## GitHub
 
 View the JobMonitor repository on GitHub: https://github.com/RyanJF1/jobmonitor
